@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Nvp.Tools.Events
+namespace Nvp.Tools.Events.EventBus
 {
     public static class NvpEventBus
     {

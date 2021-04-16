@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Nvp.Tools.Events;
+using Nvp.Tools.Events.EventBus;
 using UnityEngine;
 using UnityEngine.UI;
 

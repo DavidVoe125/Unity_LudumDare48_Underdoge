@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Nvp.Tools.Events;
 using UnityEngine;
 
-public class Thing_01_Brain : MonoBehaviour
+public class GameEvent : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,10 +13,6 @@ public class Thing_01_Brain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Fire event on key-down for space key
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            NvpEventBus.DispatchEvent("AttackAll", 10);
-        }
+        
     }
 }
