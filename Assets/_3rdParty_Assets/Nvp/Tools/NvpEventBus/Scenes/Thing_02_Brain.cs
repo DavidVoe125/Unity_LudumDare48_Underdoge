@@ -16,12 +16,12 @@ public class Thing_02_Brain : MonoBehaviour
 
     void OnEnable()
     {
-        NvpEventBus.AddListener("AttackAll", OnAttacked);
+        NvpEventBus.AddListener("Attackall", OnAttacked);
     }
 
     void OnDisable()
     {
-        NvpEventBus.RemoveListener("AttackAll", OnAttacked);
+        NvpEventBus.RemoveListener(GE.attackall, OnAttacked);
     }
 
     // Update is called once per frame
