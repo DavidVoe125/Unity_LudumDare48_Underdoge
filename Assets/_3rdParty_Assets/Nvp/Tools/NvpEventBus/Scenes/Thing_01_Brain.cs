@@ -18,7 +18,7 @@ public class Thing_01_Brain : MonoBehaviour
         // Fire event on key-down for space key
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            NvpEventBus.DispatchEvent(GE.attackall, 10);
+            NvpEventBus.DispatchEvent("AttackAll", 10);
         }
     }
 }
